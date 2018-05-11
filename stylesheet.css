@@ -1,4 +1,72 @@
 h1{
-	color: #FFE346;
+	color: #faff00 ;
 	text-align: center;
+	size: 100px;
+}
+body{
+	background-color: #000000 ;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-gap: 2vh;
+	border: 1px yellow solid;
+}
+
+.grid2{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-gap: 2vh;
+
+}
+
+.headerbody{
+	color: #faff00;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	border: 1px yellow solid;
+}
+.leftsidebar{
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	text-align: justify;
+	border: 1px yellow solid;
+}
+.rightsidebar{
+	padding: 1em;
+	grid-column-start: 2;
+	grid-column-end: span 2;
+	text-align: justify;
+	border: 1px yellow solid;
+}
+
+
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #faff00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #faff00;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #faff00;
+    color: black;
+}
+img{
+	hight: 750px;
+	width: 750px;
 }
