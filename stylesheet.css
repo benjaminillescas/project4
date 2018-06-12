@@ -5,6 +5,7 @@ h1{
 }
 body{
 	background-color: #000000 ;
+
 }
 .grid{
 	display: grid;
@@ -40,8 +41,11 @@ body{
 	grid-column-end: span 2;
 	text-align: justify;
 	border: 1px yellow solid;
-}
 
+}
+.003{
+	background-color: blue;
+}
 
 .topnav {
     background-color: #000000;
@@ -64,17 +68,45 @@ body{
 
 .topnav a.active {
     background-color: #faff00;
-    color: black;
+    color: Black;
 }
 img{
-	hight: 750px;
+	height: 550px;
 	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
 }
 h2{
-	color: white;
-	size:200px
+	color: #faff00;
+	font-size:55px
 }
 ul{
-	color:white;
-	size: 100 px;
+	color:#faff00;
+	font-size: 25px;
+}
+.001{
+	height: 550px;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+*{
+ cursor: url(images/Lemon.ico), auto;
+}
+.002{
+	height: 450px;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.grid3{
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-gap: 2vh;
+	border: 1px yellow solid;
+}
+.003{
+height: 100px;
+width: 100px;
+overflow: scroll;
 }
